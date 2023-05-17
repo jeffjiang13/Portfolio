@@ -1,27 +1,27 @@
 <div align="center" id="top">
-  <img src="./.github/app.gif" alt="React Portfolio 2022" />
+  <img src=".src/assets/readme.png" alt="React Portfolio 2022" />
 
   &#xa0;
 
-  <!-- <a href="https://reactportfolio2022.netlify.app">Demo</a> -->
+  <a href="https://jeff-jiang.com/">Demo</a>
 </div>
 
 <h1 align="center">Portfolio</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/react-portfolio-2022?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jeffjiang13/Portfolio?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/react-portfolio-2022?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jeffjiang13/Portfolio?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/react-portfolio-2022?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jeffjiang13/Portfolio?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/react-portfolio-2022?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/jeffjiang13/Portfolio?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/react-portfolio-2022?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/jeffjiang13/Portfolio?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/react-portfolio-2022?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/jeffjiang13/Portfolio?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/react-portfolio-2022?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/jeffjiang13/Portfolio?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -58,11 +58,9 @@ This is my personal portfolio website built with React. It is a single page appl
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
+
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+
 
 ## :white_check_mark: Requirements ##
 

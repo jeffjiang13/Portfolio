@@ -1,12 +1,17 @@
 import React from "react";
 import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+// import { FiInstagram } from "react-icons/fi";
+// import { IoLogoTwitter } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
+
+  let getYear = () => {
+    let currentYear = new Date().getFullYear();
+    return currentYear;
+  };
   return (
     <footer>
       <a href="#" className="footer__logo">
@@ -59,7 +64,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; JJ. All rights reserved</small>
+        <small>&copy; JJ  {getYear()}. All rights reserved</small>
       </div>
     </footer>
   );
