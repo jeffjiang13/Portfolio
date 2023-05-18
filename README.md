@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="src/assets/readme.png" alt="React Portfolio 2022" />
+  <img src="src/assets/readme.png" alt="" />
 
   &#xa0;
 
