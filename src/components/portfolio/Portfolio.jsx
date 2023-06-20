@@ -13,7 +13,7 @@ import IMG10 from "../../assets/portfolio10.png";
 import IMG11 from "../../assets/portfolio11.png";
 import IMG12 from "../../assets/portfolio12.png";
 import IMG13 from "../../assets/portfolio13.png";
-import IMG13 from "../../assets/portfolio14.png";
+import IMG14 from "../../assets/portfolio14.png";
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 
@@ -26,7 +26,7 @@ const data = [
     demo: "https://jj-fb.vercel.app/",
   },
   {
-    id: 24,
+    id: 14,
     image: IMG14,
     title: "Instagram Clone",
     github: "https://github.com/jeffjiang13/IG-2.0",
