@@ -23,7 +23,7 @@ const data = [
     image: IMG13,
     title: "Facebook Clone",
     github: "https://github.com/jeffjiang13/fb",
-    demo: "https://jj-fb.vercel.app/",
+    demo: "https://jj-facebook.vercel.app/",
   },
   {
     id: 14,
