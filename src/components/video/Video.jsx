@@ -10,7 +10,7 @@ const videoUrls = [
 const Video = () => {
   return (
     <section id="video">
-      <h5>My Recent Work</h5>
+      <h5> Videos of my Recent Work</h5>
       <h2>Videos</h2>
       <div
         className="video-section"
