@@ -1,6 +1,7 @@
 import React from "react";
 import "./video.css";
 const videoUrls = [
+  "https://drive.google.com/file/d/1Q7l95aJrqJaA8eHNBKvHHi9gqyUZIDvI/preview",
   "https://drive.google.com/file/d/1-6OBfen_6HJt4VQelphadbpkmDPeJ6V9/preview",
   "https://drive.google.com/file/d/10nYNQVaorIxv_Qxbpp8Q4vqiCkng-cPU/preview",
   "https://drive.google.com/file/d/1mzEEvHWGoanWkKUPhfp4sbSyapNl7Bwc/preview",
