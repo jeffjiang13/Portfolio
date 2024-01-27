@@ -3,7 +3,7 @@ import './nav.css';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
-import { MdOutlineVideoLibrary } from 'react-icons/md'; // Import for video icon
+import { MdOutlineVideoLibrary, MdOutlineWork } from 'react-icons/md'; // Import for portfolio icon
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
@@ -14,7 +14,8 @@ const Nav = () => {
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook /></a>
       <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
-      <a href='#video' onClick={() => setActiveNav('#videos')} className={activeNav === '#video' ? 'active' : ''}><MdOutlineVideoLibrary /></a> {/* New Video Section */}
+      <a href='#portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><MdOutlineWork /></a> {/* New Portfolio Section */}
+      <a href='#video' onClick={() => setActiveNav('#video')} className={activeNav === '#video' ? 'active' : ''}><MdOutlineVideoLibrary /></a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
     </nav>
   );
