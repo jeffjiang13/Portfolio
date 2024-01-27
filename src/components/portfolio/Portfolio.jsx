@@ -14,10 +14,28 @@ import IMG11 from "../../assets/portfolio11.png";
 import IMG12 from "../../assets/portfolio12.png";
 import IMG13 from "../../assets/portfolio13.png";
 import IMG14 from "../../assets/portfolio14.png";
+import IMG15 from "../../assets/portfolio15.png";
+import IMG16 from "../../assets/portfolio16.png";
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 
 const data = [
+  {
+    id: 15,
+    image: IMG15,
+    title: "Madamcoon Maine Coon Cattery NYC",
+    // github: "https://github.com/jeffjiang13",
+    // demo: "https://madamcoon.com/",
+    live: "https://madamcoon.com/",
+  },
+  {
+    id: 16,
+    image: IMG16,
+    title: "ChiqueChickShop",
+    // github: "https://github.com/jeffjiang13",
+    // demo: "https://chiquechickshop.com/",
+    live: "https://chiquechickshop.com/",
+  },
   {
     id: 13,
     image: IMG13,
@@ -123,7 +141,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <h5 style={{maxWidth: '800px', margin: '0 auto'}}>
+      <h5 style={{ maxWidth: "800px", margin: "0 auto" }}>
         Thank you for visiting my portfolio! Please note, some of the
         applications are hosted on render.com and might take a moment to load
         due to automatic sleep mode after 15 minutes of inactivity. Your
@@ -134,7 +152,7 @@ const Portfolio = () => {
       <h5>Here are some of my recent projects. Want to see more? Email me.</h5>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo, live }) => {
           return (
             <article
               key={id}
@@ -149,22 +167,38 @@ const Portfolio = () => {
                 className="portfolio__item-cta"
                 style={{ marginTop: "auto" }}
               >
-                <a
-                  href={github}
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
+                {/* Conditional rendering for GitHub button */}
+                {github && (
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                )}
+                {/* Conditional rendering for Live Demo button */}
+                {live && (
+                  <a
+                    href={live}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Client Site
+                  </a>
+                )}
+                {demo && (
+                  <a
+                    href={demo}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                )}
               </div>
             </article>
           );
