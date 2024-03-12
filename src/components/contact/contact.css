@@ -18,11 +18,15 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  box-shadow: 0 0 10px var(--color-primary);
+
 }
 
 .contact__option:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
+  box-shadow: 0 0 20px var(--color-primary);
+
 }
 
 .contact__option-icon {
@@ -53,6 +57,11 @@ textarea {
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+  box-shadow: 0 0 10px var(--color-primary);
+
+}
+input:hover,textarea:hover {
+  box-shadow: 0 0 20px var(--color-primary);
 }
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */

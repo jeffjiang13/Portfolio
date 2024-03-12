@@ -7,7 +7,7 @@ import AVTR4 from '../../assets/avartar4.jpg'
 
 
 // import Swiper core and required modules
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -57,10 +57,14 @@ const Testimonials = () => {
 
       <Swiper className='container testimonials__container'
       // install Swiper modules
-      modules={[Pagination]}
+      modules={[Pagination, Autoplay]} // Include Autoplay module
       spaceBetween={40}
       slidesPerView={1}
       pagination={{ clickable: true }}
+      autoplay={{ // Configure autoplay options
+        delay: 5000, // Delay between transitions (in ms)
+        disableOnInteraction: false, // Continue autoplay after user interaction
+      }}
       >
 
         {

@@ -16,6 +16,8 @@
   );
   display: grid;
   place-items: center;
+  box-shadow: 0 0 10px var(--color-primary);
+
 }
 
 .about__me-image {
@@ -23,10 +25,14 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
+  box-shadow: 0 0 10px var(--color-primary);
+
 }
 
 .about__me-image:hover {
   transform: rotate(0);
+  box-shadow: 0 0 30px var(--color-primary);
+
 }
 
 .about__cards {
@@ -42,12 +48,16 @@
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
+  box-shadow: 0 0 10px var(--color-primary);
+
 }
 
 .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
+  box-shadow: 0 0 20px var(--color-primary);
+
 }
 
 .about__icon {

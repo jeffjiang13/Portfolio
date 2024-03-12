@@ -12,6 +12,10 @@
   border: 0.4rem solid var(--color-primary-variant);
 }
 
+.client__avatar:hover {
+  box-shadow: 0 0 10px var(--color-primary);
+
+}
 .testimonial {
   background: var(--color-bg-variant);
   text-align: center;
