@@ -1,3 +1,27 @@
+/* Example CSS for the .name class to animate text */
+@keyframes textFade {
+  0%, 100% { background-size: 200% 200%; background-position: left center; }
+  50% { background-size: 200% 200%; background-position: right center; }
+}
+
+.footer__logo{
+  /* Apply your animation */
+  animation: textFade 5s ease infinite;
+
+  /* Gradient background */
+  background-image: linear-gradient(to right, #4fd1c5, #805ad5, #f6ad55);
+
+  /* Making the text transparent so the background is visible */
+  color: transparent;
+
+  /* Additional styling */
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  font-weight: 900; /* Corresponds to 'font-black' in Tailwind */
+}
+
+
 footer {
   background: var(--color-primary);
   padding: 3rem 0;
@@ -39,12 +63,15 @@ footer a {
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
+  box-shadow: 0 0 10px var(--color-bg-variant);
+
 }
 
 .footer__socials a:hover {
   background: transparent;
   color: var(--color-bg);
   border-color: var(--color-bg);
+  box-shadow: 0 0 20px var(--color-bg-variant);
 }
 
 .footer__copyright {

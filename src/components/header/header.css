@@ -1,3 +1,27 @@
+/* Example CSS for the .name class to animate text */
+@keyframes textFade {
+  0%, 100% { background-size: 200% 200%; background-position: left center; }
+  50% { background-size: 200% 200%; background-position: right center; }
+}
+
+.name {
+  /* Apply your animation */
+  animation: textFade 5s ease infinite;
+
+  /* Gradient background */
+  background-image: linear-gradient(to right, #4fd1c5, #805ad5, #f6ad55);
+
+  /* Making the text transparent so the background is visible */
+  color: transparent;
+
+  /* Additional styling */
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  font-weight: 900; /* Corresponds to 'font-black' in Tailwind */
+}
+
+
 header {
   height: 100vh;
   padding-top: 7rem;
