@@ -16,6 +16,7 @@ import IMG13 from "../../assets/portfolio13.png";
 import IMG14 from "../../assets/portfolio14.png";
 import IMG15 from "../../assets/portfolio15.png";
 import IMG16 from "../../assets/portfolio16.png";
+import IMG17 from "../../assets/portfolio17.png";
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 
@@ -35,6 +36,14 @@ const data = [
     // github: "https://github.com/jeffjiang13",
     // demo: "https://chiquechickshop.com/",
     live: "https://chiquechickshop.com/",
+  },
+  {
+    id: 17,
+    image: IMG17,
+    title: "ChiqueChickShop",
+    // github: "https://github.com/jeffjiang13",
+    // demo: "https://chiquechickshop.com/",
+    live: "https://jj-tailortech.vercel.app/",
   },
   {
     id: 13,
@@ -185,7 +194,6 @@ const Portfolio = () => {
                     className="btn btn-primary"
                     target="_blank"
                     rel="noreferrer"
-
                   >
                     Client Site
                   </a>
