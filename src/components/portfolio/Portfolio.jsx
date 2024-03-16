@@ -40,7 +40,7 @@ const data = [
   {
     id: 17,
     image: IMG17,
-    title: "ChiqueChickShop",
+    title: "TailorTech",
     // github: "https://github.com/jeffjiang13",
     // demo: "https://chiquechickshop.com/",
     live: "https://jj-tailortech.vercel.app/",
