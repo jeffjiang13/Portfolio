@@ -41,9 +41,9 @@ const data = [
     id: 17,
     image: IMG17,
     title: "TailorTech",
-    // github: "https://github.com/jeffjiang13",
-    // demo: "https://chiquechickshop.com/",
-    live: "https://jj-tailortech.vercel.app/",
+    github: "https://github.com/jeffjiang13/tailortech",
+    demo: "https://jj-tailortech.vercel.app/",
+    // live: "https://jj-tailortech.vercel.app/",
   },
   {
     id: 13,
