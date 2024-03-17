@@ -23,9 +23,10 @@
 
 
 header {
-  height: 110vh;
+  height: 100vh;
   padding-top: 7rem;
-  /* overflow: hidden; */
+
+  overflow: scroll;
 }
 
 .header__container {

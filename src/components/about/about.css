@@ -1,3 +1,20 @@
+.name {
+  /* Apply your animation */
+  animation: textFade 5s ease infinite;
+
+  /* Gradient background */
+  background-image: linear-gradient(to right, #4fd1c5, #805ad5, #f6ad55);
+
+  /* Making the text transparent so the background is visible */
+  color: transparent;
+
+  /* Additional styling */
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  font-weight: 900; /* Corresponds to 'font-black' in Tailwind */
+}
+
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;

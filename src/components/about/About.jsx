@@ -8,10 +8,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
-      <br />
-      <br />
-      <br />
-      <br />
+
 
       <h5>Get to Know</h5>
       <h2>About Me</h2>
@@ -56,7 +53,7 @@ const About = () => {
             time as a Police Officer at NYPD and a Restaurant Manager, which
             honed my skills in teamwork, problem-solving, and operations
             management. Feel free to explore my projects and get in touch at
-            jeff.jiang13@gmail.com. I'm always open to new opportunities and
+            {" "} <a className="name" href="mailto::jeff.jiang13@gmail.com"> jeff.jiang13@gmail.com.</a> I'm always open to new opportunities and
             collaborations!
           </p>
           <a href="#contact" className="btn btn-primary">
