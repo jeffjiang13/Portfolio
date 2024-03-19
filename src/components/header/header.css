@@ -26,8 +26,17 @@
   -webkit-background-clip: text;
   display: inline-block;
   font-weight: 900; /* Corresponds to 'font-black' in Tailwind */
+  margin-right: 30px
 }
-
+.name-logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center; /* Center the logo */
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
 header {
   height: 100vh;
   padding-top: 7rem;

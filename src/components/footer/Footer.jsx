@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer__brand">
-        <img src={LOGO} className="logo" alt="logo" />
+      <a href="#"><img src={LOGO} className="footerlogo" alt="logo" /></a>
        <h1><a href="#" className="footer__logo">Jeff Jiang</a></h1>
       </div>
       <ul className="permalinks">
