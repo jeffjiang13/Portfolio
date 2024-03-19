@@ -5,18 +5,19 @@ import { FaFacebookF } from "react-icons/fa";
 // import { IoLogoTwitter } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import LOGO from "../../assets/LOGO2.webp";
 
 const Footer = () => {
-
   let getYear = () => {
     let currentYear = new Date().getFullYear();
     return currentYear;
   };
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        Jeff Jiang
-      </a>
+      <div className="footer__brand">
+        <img src={LOGO} className="logo" alt="logo" />
+       <h1><a href="#" className="footer__logo">Jeff Jiang</a></h1>
+      </div>
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>
@@ -67,7 +68,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; JJ  {getYear()}. All rights reserved</small>
+        <small>&copy; JJ {getYear()}. All rights reserved</small>
       </div>
     </footer>
   );

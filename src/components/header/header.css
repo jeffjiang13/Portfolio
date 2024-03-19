@@ -1,7 +1,14 @@
 /* Example CSS for the .name class to animate text */
 @keyframes textFade {
-  0%, 100% { background-size: 200% 200%; background-position: left center; }
-  50% { background-size: 200% 200%; background-position: right center; }
+  0%,
+  100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
 }
 
 .name {
@@ -21,11 +28,9 @@
   font-weight: 900; /* Corresponds to 'font-black' in Tailwind */
 }
 
-
 header {
   height: 100vh;
   padding-top: 7rem;
-
   overflow: scroll;
 }
 
@@ -33,6 +38,7 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+
 }
 
 /* ==================== CTA ===================== */
@@ -84,7 +90,6 @@ header {
     transparent
   );
   box-shadow: 0 0 20px var(--color-primary);
-
 }
 
 /* ==================== SCROLL DOWN ===================== */
