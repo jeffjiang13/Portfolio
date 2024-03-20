@@ -90,6 +90,7 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 
 
 Made with :heart: by <a href="https://github.com/jeffjiang13" target="_blank">Jeff Jiang</a>
+Thank you
 
 &#xa0;
 
