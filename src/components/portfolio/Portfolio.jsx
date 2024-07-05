@@ -17,10 +17,55 @@ import IMG14 from "../../assets/portfolio14.png";
 import IMG15 from "../../assets/portfolio15.png";
 import IMG16 from "../../assets/portfolio16.png";
 import IMG17 from "../../assets/portfolio17.png";
+import IMG18 from "../../assets/portfolio18.png";
+import IMG19 from "../../assets/portfolio19.png";
+import IMG20 from "../../assets/portfolio20.png";
+import IMG21 from "../../assets/portfolio21.png";
+import IMG22 from "../../assets/portfolio22.png";
+import IMG23 from "../../assets/portfolio23.png";
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 
 const data = [
+  {
+    id: 18,
+    image: IMG18,
+    title: "SmartRep AI",
+    github: "https://github.com/jeffjiang13/smartrep-ai",
+    demo: "https://jj-smartrep.vercel.app/",
+  },  {
+    id: 19,
+    image: IMG19,
+    title: "ZapFlow",
+    github: "https://github.com/jeffjiang13/saas-automation",
+    demo: "https://jj-zapflow.vercel.app/",
+  },  {
+    id: 20,
+    image: IMG20,
+    title: "Matrix AI",
+    github: "https://github.com/jeffjiang13/MatrixAI",
+    demo: "https://jj-matrix-ai.vercel.app/",
+  },  {
+    id: 21,
+    image: IMG21,
+    title: "BeeClone",
+    github: "https://github.com/jeffjiang13/saas-newsletter",
+    demo: "https://jj-newsletter.vercel.app/",
+  },
+  {
+    id: 22,
+    image: IMG22,
+    title: "LinkTree Clone",
+    github: "https://github.com/jeffjiang13/LinkTree",
+    demo: "https://jj-linktri.vercel.app/",
+  },
+  {
+    id: 23,
+    image: IMG23,
+    title: "Notable (Notion Clone)",
+    github: "https://github.com/jeffjiang13/notable",
+    demo: "https://jj-notable.up.railway.app/",
+  },
   {
     id: 15,
     image: IMG15,
@@ -159,7 +204,7 @@ const Portfolio = () => {
       </h5>
       <br />
       <h5>Here are some of my recent projects. Want to see more? Email me.</h5>
-
+      <br />
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo, live }) => {
           return (
