@@ -1,7 +1,7 @@
 .name {
   /* Apply your animation */
   animation: textFade 5s ease infinite;
-
+  margin-right: -0.1rem;
   /* Gradient background */
   background-image: linear-gradient(to right, #4fd1c5, #805ad5, #f6ad55);
 
