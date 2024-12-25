@@ -95,7 +95,7 @@ const data = [
     image: IMG13,
     title: "Facebook Clone",
     github: "https://github.com/jeffjiang13/fb",
-    demo: "https://jj-facebook.vercel.app/",
+    demo: "https://jj-fb.netlify.app/",
   },
   {
     id: 14,
