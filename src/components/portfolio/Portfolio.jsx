@@ -102,7 +102,7 @@ const data = [
     image: IMG14,
     title: "Instagram Clone",
     github: "https://github.com/jeffjiang13/IG-2.0",
-    demo: "https://jj-ig.netlify.app",
+    demo: "https://quicktele.netlify.app/",
   },
   {
     id: 1,
