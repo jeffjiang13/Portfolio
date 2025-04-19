@@ -44,7 +44,7 @@ const data = [
     image: IMG20,
     title: "Matrix AI",
     github: "https://github.com/jeffjiang13/MatrixAI",
-    demo: "https://jj-matrix-ai.vercel.app/",
+    demo: "https://jj-nextgen-ai.vercel.app/",
   },  {
     id: 21,
     image: IMG21,
